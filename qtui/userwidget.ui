@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PerClient</class>
+ <widget class="QFrame" name="PerClient">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>720</width>
+    <height>520</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>720</width>
+    <height>520</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Frame</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout" stretch="3,1">
+     <property name="spacing">
+      <number>1</number>
+     </property>
+     <item>
+      <widget class="QTabWidget" name="topTabWidget">
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <property name="tabsClosable">
+        <bool>false</bool>
+       </property>
+       <property name="tabBarAutoHide">
+        <bool>false</bool>
+       </property>
+       <widget class="QWidget" name="login">
+        <property name="toolTip">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;123&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <attribute name="title">
+         <string>登录</string>
+        </attribute>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QTabWidget" name="loginSub">
+           <property name="minimumSize">
+            <size>
+             <width>711</width>
+             <height>361</height>
+            </size>
+           </property>
+           <property name="currentIndex">
+            <number>0</number>
+           </property>
+           <widget class="QWidget" name="accountLogin">
+            <attribute name="title">
+             <string>账密登录</string>
+            </attribute>
+            <widget class="QLabel" name="accountLabel">
+             <property name="geometry">
+              <rect>
+               <x>150</x>
+               <y>80</y>
+               <width>91</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>15</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>用户名:</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="pwdLabel">
+             <property name="geometry">
+              <rect>
+               <x>150</x>
+               <y>150</y>
+               <width>91</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>15</pointsize>
+              </font>
+             </property>
+             <property name="layoutDirection">
+              <enum>Qt::RightToLeft</enum>
+             </property>
+             <property name="text">
+              <string>密码:</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="accountInput">
+             <property name="geometry">
+              <rect>
+               <x>250</x>
+               <y>80</y>
+               <width>250</width>
+               <height>41</height>
+              </rect>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="pwdInput">
+             <property name="geometry">
+              <rect>
+               <x>250</x>
+               <y>150</y>
+               <width>250</width>
+               <height>41</height>
+              </rect>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="check">
+             <property name="geometry">
+              <rect>
+               <x>180</x>
+               <y>240</y>
+               <width>93</width>
+               <height>28</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>确 定</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="clear">
+             <property name="geometry">
+              <rect>
+               <x>310</x>
+               <y>240</y>
+               <width>93</width>
+               <height>28</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>清除文本</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="logout">
+             <property name="geometry">
+              <rect>
+               <x>440</x>
+               <y>240</y>
+               <width>93</width>
+               <height>28</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>登 出</string>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="st1">
+            <attribute name="title">
+             <string>其他</string>
+            </attribute>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="t2">
+        <attribute name="title">
+         <string>Page</string>
+        </attribute>
+       </widget>
+       <widget class="QWidget" name="t3">
+        <attribute name="title">
+         <string>Page</string>
+        </attribute>
+       </widget>
+       <widget class="QWidget" name="t4">
+        <attribute name="title">
+         <string>Page</string>
+        </attribute>
+       </widget>
+       <widget class="QWidget" name="t5">
+        <attribute name="title">
+         <string>Page</string>
+        </attribute>
+       </widget>
+       <widget class="QWidget" name="t6">
+        <attribute name="title">
+         <string>Page</string>
+        </attribute>
+       </widget>
+       <widget class="QWidget" name="t7">
+        <attribute name="title">
+         <string>Page</string>
+        </attribute>
+       </widget>
+       <widget class="QWidget" name="t8">
+        <attribute name="title">
+         <string>Page</string>
+        </attribute>
+       </widget>
+       <widget class="QWidget" name="t9">
+        <attribute name="title">
+         <string>Page</string>
+        </attribute>
+       </widget>
+       <widget class="QWidget" name="t10">
+        <attribute name="title">
+         <string>Page</string>
+        </attribute>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPlainTextEdit" name="log"/>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
